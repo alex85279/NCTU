@@ -1,0 +1,5 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: 中繼目錄 (Debug\) 包含從其他專案 (RayTracingInOneWeekend.vcxproj) 共用的檔案。這可能導致錯誤的清除和重建行為。
+  main.cpp
+D:\desktop\hw3_release\PPM_Example\main.cpp(67,17): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+  LINK : 最後的累加連結找不到或未建置 D:\desktop\hw3_release\Debug\PPM_Example.exe，正在執行完整連結
+  PPM_Example.vcxproj -> D:\desktop\hw3_release\Debug\PPM_Example.exe

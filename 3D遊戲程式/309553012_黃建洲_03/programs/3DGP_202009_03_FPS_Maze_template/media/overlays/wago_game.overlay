@@ -1,0 +1,74 @@
+Overlay/GameIntro
+{
+	zorder 10
+	container Panel(intro)
+	{
+		metrics_mode relative
+		left 0
+		top 0
+		width 1
+		height 1
+		material wago_game/intro
+
+	}
+}
+
+
+Overlay/GameVictory
+{
+	zorder 10
+	container Panel(victory)
+	{
+		metrics_mode relative
+		left 0
+		top 0
+		width 1
+		height 1
+		material wago_game/victory
+
+	}
+}
+
+
+Overlay/GameOver
+{
+	zorder 2
+	container Panel(game_over)
+	{
+		metrics_mode relative
+		left 0
+		top 0
+		width 1
+		height 1
+		material wago_game/game_over
+	}
+}
+
+Overlay/GameExit
+{
+	zorder 2
+	container Panel(game_exit)
+	{
+		metrics_mode pixels
+		left 0
+		top 0
+		width 1024
+		height 768
+		material wago_game/game_exit
+	}
+}
+
+Overlay/Background
+{
+	zorder 9
+	container Panel(background)
+	{
+		metrics_mode pixels
+		left 0
+		top 0
+		width 1024
+		height 768
+		material wago_game/background
+
+	}
+}

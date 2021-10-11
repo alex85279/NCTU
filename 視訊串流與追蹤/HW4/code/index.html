@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+<title>DASH</title>
+<script src="https://cdn.dashjs.org/latest/dash.all.min.js"></script>
+</head>
+<body>
+  <video id="videoPlayer" autoplay="true" controls="true" muted="muted"></video>
+  <script>
+        (function(){
+            var url = "output_dash.mpd";
+            var player = dashjs.MediaPlayer().create();
+            player.initialize(document.querySelector("#videoPlayer"), url, true);
+        })();
+    </script>
+</body>
+</html>

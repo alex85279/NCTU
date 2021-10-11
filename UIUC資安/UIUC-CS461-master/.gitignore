@@ -1,0 +1,16 @@
+*
+!cookie
+!Makefile
+!setcookie
+!*.c
+!*.S
+!*.py
+!*.tpl
+!*.hex
+!*.cer
+!*.asc
+!*.txt
+!*.secret
+!*.html
+!*.tar.gz
+!.gitignore

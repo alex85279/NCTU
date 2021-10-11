@@ -1,0 +1,1 @@
+SELECT Id, AVG(kills) as avgKills FROM (SELECT Id, matchId, kills FROM player_statistic) as player_focus JOIN (SELECT matchId FROM `match` WHERE numGroups <= 10) as match_focus USING(matchId) GROUP BY Id ORDER BY AvgKills desc Limit 20;

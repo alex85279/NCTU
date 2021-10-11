@@ -1,0 +1,61 @@
+﻿已經開始建置於 2020/11/11 下午 04:15:13。
+     1>節點 2 (build 目標) 上的專案 "D:\桌面\Quiz2\3DGP_Assignment_Template_202009\programs\3DGP_202009_Ex02_Space_Template\demo_hello.vcxproj"。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(298,5): warning MSB8004: Intermediate 目錄結尾不是結尾斜線。這個建置執行個體將會加入此斜線，因為這樣才能正確評估 Intermediate 目錄。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output 目錄結尾不是結尾斜線。這個建置執行個體將會加入此斜線，因為這樣才能正確評估 Output 目錄。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "Release\demo_hello.unsuccessfulbuild"。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include\OGRE /I..\..\include\OIS /I..\..\boost_1_42 /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt source\TutorialApplication.cpp
+         TutorialApplication.cpp
+     1>source\TutorialApplication.cpp(18): warning C4305: '正在初始化' : 從 'double' 轉換為 'const float'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>source\TutorialApplication.cpp(57): warning C4305: '引數' : 從 'double' 轉換為 'const Ogre::Real'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>source\TutorialApplication.cpp(196): warning C4305: '引數' : 從 'double' 轉換為 'Ogre::Real'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>source\TutorialApplication.cpp(196): warning C4305: '引數' : 從 'double' 轉換為 'Ogre::Real'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>source\TutorialApplication.cpp(196): warning C4305: '引數' : 從 'double' 轉換為 'Ogre::Real'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>source\TutorialApplication.cpp(312): warning C4305: '引數' : 從 'double' 轉換為 'Ogre::Real'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>source\TutorialApplication.cpp(312): warning C4305: '引數' : 從 'double' 轉換為 'Ogre::Real'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>source\TutorialApplication.cpp(312): warning C4305: '引數' : 從 'double' 轉換為 'Ogre::Real'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>source\TutorialApplication.cpp(319): warning C4305: '引數' : 從 'double' 轉換為 'Ogre::Real'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>source\TutorialApplication.cpp(319): warning C4305: '引數' : 從 'double' 轉換為 'Ogre::Real'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>source\TutorialApplication.cpp(319): warning C4305: '引數' : 從 'double' 轉換為 'Ogre::Real'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>source\TutorialApplication.cpp(351): warning C4305: '引數' : 從 'double' 轉換為 'Ogre::Real'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>source\TutorialApplication.cpp(398): warning C4305: '引數' : 從 'double' 轉換為 'const Ogre::Real'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>source\TutorialApplication.cpp(398): warning C4305: '引數' : 從 'double' 轉換為 'const Ogre::Real'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>source\TutorialApplication.cpp(398): warning C4305: '引數' : 從 'double' 轉換為 'const Ogre::Real'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>source\TutorialApplication.cpp(400): warning C4305: '引數' : 從 'double' 轉換為 'const Ogre::Real'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>source\TutorialApplication.cpp(400): warning C4305: '引數' : 從 'double' 轉換為 'const Ogre::Real'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>source\TutorialApplication.cpp(400): warning C4305: '引數' : 從 'double' 轉換為 'const Ogre::Real'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>source\TutorialApplication.cpp(462): warning C4305: '引數' : 從 'double' 轉換為 'const Ogre::Real'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>source\TutorialApplication.cpp(462): warning C4305: '引數' : 從 'double' 轉換為 'const Ogre::Real'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>source\TutorialApplication.cpp(462): warning C4305: '引數' : 從 'double' 轉換為 'const Ogre::Real'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>source\TutorialApplication.cpp(464): warning C4305: '引數' : 從 'double' 轉換為 'const Ogre::Real'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>source\TutorialApplication.cpp(464): warning C4305: '引數' : 從 'double' 轉換為 'const Ogre::Real'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>source\TutorialApplication.cpp(464): warning C4305: '引數' : 從 'double' 轉換為 'const Ogre::Real'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>source\TutorialApplication.cpp(470): warning C4305: '引數' : 從 'double' 轉換為 'const Ogre::Real'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>source\TutorialApplication.cpp(470): warning C4305: '引數' : 從 'double' 轉換為 'const Ogre::Real'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>source\TutorialApplication.cpp(470): warning C4305: '引數' : 從 'double' 轉換為 'const Ogre::Real'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>source\TutorialApplication.cpp(472): warning C4305: '引數' : 從 'double' 轉換為 'const Ogre::Real'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>source\TutorialApplication.cpp(472): warning C4305: '引數' : 從 'double' 轉換為 'const Ogre::Real'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>source\TutorialApplication.cpp(472): warning C4305: '引數' : 從 'double' 轉換為 'const Ogre::Real'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>source\TutorialApplication.cpp(481): warning C4305: '引數' : 從 'double' 轉換為 'const Ogre::Real'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>source\TutorialApplication.cpp(481): warning C4305: '引數' : 從 'double' 轉換為 'const Ogre::Real'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>source\TutorialApplication.cpp(481): warning C4305: '引數' : 從 'double' 轉換為 'const Ogre::Real'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>source\TutorialApplication.cpp(483): warning C4305: '引數' : 從 'double' 轉換為 'const Ogre::Real'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>source\TutorialApplication.cpp(483): warning C4305: '引數' : 從 'double' 轉換為 'const Ogre::Real'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\Release\/demo_hello.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\lib\Release /LIBPATH:..\..\lib\opt\ /LIBPATH:..\..\boost_1_42\lib ..\..\lib\release\OgreMain.lib "..\..\boost_1_42\lib\libboost_thread-vc100-mt-1_42.lib" "..\..\boost_1_42\lib\libboost_date_time-vc100-mt-1_42.lib" ..\..\lib\release\OgreRTShaderSystem.lib ..\..\lib\release\OIS.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\demo_hello.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\桌面\Quiz2\3DGP_Assignment_Template_202009\programs\3DGP_202009_Ex02_Space_Template\bin\Release\demo_hello.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"bin\Release\demo_hello.lib" /MACHINE:X86 Release\BaseApplication.obj
+         Release\BasicTools.obj
+         Release\TutorialApplication.obj
+         正在產生程式碼
+         已完成程式碼產生
+         demo_hello.vcxproj -> D:\桌面\Quiz2\3DGP_Assignment_Template_202009\programs\3DGP_202009_Ex02_Space_Template\bin\Release\demo_hello.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"bin\Release\/demo_hello.exe;#1" /manifest Release\demo_hello.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在刪除檔案 "Release\demo_hello.unsuccessfulbuild"。
+         正在變更時間戳記 "Release\demo_hello.lastbuildstate"。
+     1>專案 "D:\桌面\Quiz2\3DGP_Assignment_Template_202009\programs\3DGP_202009_Ex02_Space_Template\demo_hello.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:07.81

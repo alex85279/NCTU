@@ -1,0 +1,270 @@
+\hypertarget{class_basic_tutorial__00}{}\doxysection{Basic\+Tutorial\+\_\+00 Class Reference}
+\label{class_basic_tutorial__00}\index{BasicTutorial\_00@{BasicTutorial\_00}}
+
+
+3D Game Programming ~\newline
+My Name\+: Chien-\/\+Chou Wong ~\newline
+My ID\+: 309553012 ~\newline
+My Email\+: \href{mailto:alexwong85279@gmail.com}{\texttt{ alexwong85279@gmail.\+com}} ~\newline
+ ~\newline
+ Date\+: 2020/09/25  
+
+
+
+
+{\ttfamily \#include $<$Tutorial\+Application.\+h$>$}
+
+Inheritance diagram for Basic\+Tutorial\+\_\+00\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.382979cm]{class_basic_tutorial__00}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_basic_tutorial__00_aba97a29d983586d2dc8e108d3bccf721}\label{class_basic_tutorial__00_aba97a29d983586d2dc8e108d3bccf721}} 
+virtual void {\bfseries choose\+Scene\+Manager} (void)
+\item 
+\mbox{\Hypertarget{class_basic_tutorial__00_a1bf709417d654dffc2ea10987412b912}\label{class_basic_tutorial__00_a1bf709417d654dffc2ea10987412b912}} 
+virtual void {\bfseries create\+Camera} (void)
+\item 
+\mbox{\Hypertarget{class_basic_tutorial__00_adc2454d9f8226e0958ecf702f355846e}\label{class_basic_tutorial__00_adc2454d9f8226e0958ecf702f355846e}} 
+virtual void {\bfseries create\+Viewports} (void)
+\item 
+\mbox{\Hypertarget{class_basic_tutorial__00_a15a3d4673724ec99077ce992f996a550}\label{class_basic_tutorial__00_a15a3d4673724ec99077ce992f996a550}} 
+virtual void {\bfseries create\+Scene} (void)
+\item 
+virtual bool \mbox{\hyperlink{class_basic_tutorial__00_a94e281a96584a25bf57b1c5e73737c81}{frame\+Started}} (const Ogre\+::\+Frame\+Event \&evt)
+\begin{DoxyCompactList}\small\item\em Define the motion of the items before the frame is rendered. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_basic_tutorial__00_a20dcf5fa030cc277930ee5f35c6bf188}\label{class_basic_tutorial__00_a20dcf5fa030cc277930ee5f35c6bf188}} 
+float {\bfseries m\+Angle}
+\item 
+\mbox{\Hypertarget{class_basic_tutorial__00_a90ecd47ebdb089263345567d6bc00a16}\label{class_basic_tutorial__00_a90ecd47ebdb089263345567d6bc00a16}} 
+float {\bfseries m\+Angular\+Speed}
+\item 
+\mbox{\Hypertarget{class_basic_tutorial__00_ae61753966308e51fb03ad72dfa0e7d8d}\label{class_basic_tutorial__00_ae61753966308e51fb03ad72dfa0e7d8d}} 
+int {\bfseries reverse}
+\item 
+\mbox{\Hypertarget{class_basic_tutorial__00_aaf46d94d75d87cc65a71bac7508a3433}\label{class_basic_tutorial__00_aaf46d94d75d87cc65a71bac7508a3433}} 
+bool {\bfseries toggle}
+\item 
+\mbox{\Hypertarget{class_basic_tutorial__00_a01d3861c3278ce75fab1e0f434086704}\label{class_basic_tutorial__00_a01d3861c3278ce75fab1e0f434086704}} 
+int {\bfseries place\+\_\+idx}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_basic_tutorial__00_a6d4684502f2f7b2cf628a975d7750d8e}{create\+Viewport\+\_\+00}} (void)
+\begin{DoxyCompactList}\small\item\em Create a viewport. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_basic_tutorial__00_a2801a2f0d91d80b471da48344d2ccccf}{create\+Viewport\+\_\+01}} (void)
+\begin{DoxyCompactList}\small\item\em Create a viewport for 2nd Scene Manager. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_basic_tutorial__00_a3479c50dbf8dc06a7ea77014eb94c6e7}{create\+Camera\+\_\+00}} ()
+\begin{DoxyCompactList}\small\item\em Create a camera item for the 1st Scene Manager. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_basic_tutorial__00_a8745a127adeb69fa769f832fd41412c0}{create\+Camera\+\_\+01}} ()
+\begin{DoxyCompactList}\small\item\em Create a camera item for the 2nd Scene Manager. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_basic_tutorial__00_aa84173e509858146cbfb98274c1ef56e}{create\+Scene\+\_\+00}} ()
+\begin{DoxyCompactList}\small\item\em Create a scene for 1st Scene Manager. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_basic_tutorial__00_aad14e1ca565797c4b7dcff31bc0e1494}{create\+Scene\+\_\+01}} ()
+\begin{DoxyCompactList}\small\item\em Create a scene for 2nd Scene Manager. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_basic_tutorial__00_adc1a0b32d78b1980b3ee51a1b1e1e69b}{key\+Pressed}} (const O\+I\+S\+::\+Key\+Event \&arg)
+\begin{DoxyCompactList}\small\item\em Set the callback function according to the keyboard input. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_basic_tutorial__00_aacca7a0a2a5a0e0d007b9c6c30b4941b}\label{class_basic_tutorial__00_aacca7a0a2a5a0e0d007b9c6c30b4941b}} 
+bool {\bfseries key\+Released} (const O\+I\+S\+::\+Key\+Event \&arg)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_basic_tutorial__00_a6676a92b50e9b43634d4c66488537b73}\label{class_basic_tutorial__00_a6676a92b50e9b43634d4c66488537b73}} 
+Ogre\+::\+Viewport $\ast$ {\bfseries m\+Viewport\+Arr} \mbox{[}8\mbox{]}
+\item 
+\mbox{\Hypertarget{class_basic_tutorial__00_af8d457d912286a98c0975c52d4faf910}\label{class_basic_tutorial__00_af8d457d912286a98c0975c52d4faf910}} 
+Ogre\+::\+Camera $\ast$ {\bfseries m\+Camera\+Arr} \mbox{[}8\mbox{]}
+\item 
+\mbox{\Hypertarget{class_basic_tutorial__00_a603779b6087698c57b7989e16d8a9b93}\label{class_basic_tutorial__00_a603779b6087698c57b7989e16d8a9b93}} 
+Ogre\+::\+Scene\+Manager $\ast$ {\bfseries m\+Scene\+Mgr\+Arr} \mbox{[}8\mbox{]}
+\item 
+\mbox{\Hypertarget{class_basic_tutorial__00_a700c07f924c71e9fa1885a46f599d934}\label{class_basic_tutorial__00_a700c07f924c71e9fa1885a46f599d934}} 
+Ogre\+Bites\+::\+Sdk\+Camera\+Man $\ast$ {\bfseries m\+Camera\+Man\+Arr} \mbox{[}8\mbox{]}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+3D Game Programming ~\newline
+My Name\+: Chien-\/\+Chou Wong ~\newline
+My ID\+: 309553012 ~\newline
+My Email\+: \href{mailto:alexwong85279@gmail.com}{\texttt{ alexwong85279@gmail.\+com}} ~\newline
+ ~\newline
+ Date\+: 2020/09/25 
+
+This is an assignment of 3D Game Programming 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_basic_tutorial__00_a3479c50dbf8dc06a7ea77014eb94c6e7}\label{class_basic_tutorial__00_a3479c50dbf8dc06a7ea77014eb94c6e7}} 
+\index{BasicTutorial\_00@{BasicTutorial\_00}!createCamera\_00@{createCamera\_00}}
+\index{createCamera\_00@{createCamera\_00}!BasicTutorial\_00@{BasicTutorial\_00}}
+\doxysubsubsection{\texorpdfstring{createCamera\_00()}{createCamera\_00()}}
+{\footnotesize\ttfamily void Basic\+Tutorial\+\_\+00\+::create\+Camera\+\_\+00 (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Create a camera item for the 1st Scene Manager. 
+
+Describe the property of the camera(Position, Look\+At, Clip\+Distance etc.)
+
+Create a camera man and attach the camera for Manager
+
+\begin{DoxyReturn}{Returns}
+No return value 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_basic_tutorial__00_a8745a127adeb69fa769f832fd41412c0}\label{class_basic_tutorial__00_a8745a127adeb69fa769f832fd41412c0}} 
+\index{BasicTutorial\_00@{BasicTutorial\_00}!createCamera\_01@{createCamera\_01}}
+\index{createCamera\_01@{createCamera\_01}!BasicTutorial\_00@{BasicTutorial\_00}}
+\doxysubsubsection{\texorpdfstring{createCamera\_01()}{createCamera\_01()}}
+{\footnotesize\ttfamily void Basic\+Tutorial\+\_\+00\+::create\+Camera\+\_\+01 (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Create a camera item for the 2nd Scene Manager. 
+
+Describe the property of the camera(Position, Look\+At, Clip\+Distance etc.)
+
+Create a camera man and attach the camera for Manager
+
+\begin{DoxyReturn}{Returns}
+No return value 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_basic_tutorial__00_aa84173e509858146cbfb98274c1ef56e}\label{class_basic_tutorial__00_aa84173e509858146cbfb98274c1ef56e}} 
+\index{BasicTutorial\_00@{BasicTutorial\_00}!createScene\_00@{createScene\_00}}
+\index{createScene\_00@{createScene\_00}!BasicTutorial\_00@{BasicTutorial\_00}}
+\doxysubsubsection{\texorpdfstring{createScene\_00()}{createScene\_00()}}
+{\footnotesize\ttfamily void Basic\+Tutorial\+\_\+00\+::create\+Scene\+\_\+00 (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Create a scene for 1st Scene Manager. 
+
+What to do\+:
+
+
+\begin{DoxyEnumerate}
+\item Set ambient light and shadow technique.
+\item Create plane for placing items (Ensure that plane won\textquotesingle{}t cast shadow) and attach it to child node.
+\item (Large Penguin)Create a penguin entity, attach to child node, set propertites, scale it to make it become larger, rotate it to make it face to camera.
+\item (Small Penguin)Same as 4., but without scaling, and make it face to the large penguin.
+\item Create several nodes with cube entity, place and scale them according to the provided function.
+\item Create two light item to observe the performance of the shadow.
+\end{DoxyEnumerate}
+
+\begin{DoxyReturn}{Returns}
+No return value 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_basic_tutorial__00_aad14e1ca565797c4b7dcff31bc0e1494}\label{class_basic_tutorial__00_aad14e1ca565797c4b7dcff31bc0e1494}} 
+\index{BasicTutorial\_00@{BasicTutorial\_00}!createScene\_01@{createScene\_01}}
+\index{createScene\_01@{createScene\_01}!BasicTutorial\_00@{BasicTutorial\_00}}
+\doxysubsubsection{\texorpdfstring{createScene\_01()}{createScene\_01()}}
+{\footnotesize\ttfamily void Basic\+Tutorial\+\_\+00\+::create\+Scene\+\_\+01 (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Create a scene for 2nd Scene Manager. 
+
+What to do\+: (just a simple scene)
+
+
+\begin{DoxyEnumerate}
+\item Set ambient light and shadow technique.
+\item Create plane for placing items (Ensure that plane won\textquotesingle{}t cast shadow) and attach it to child node.
+\item Create a node with cube entity and place it to the middle of the ground.
+\item Create one light item to observe the performance of the shadow.
+\end{DoxyEnumerate}
+
+\begin{DoxyReturn}{Returns}
+No return value 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_basic_tutorial__00_a6d4684502f2f7b2cf628a975d7750d8e}\label{class_basic_tutorial__00_a6d4684502f2f7b2cf628a975d7750d8e}} 
+\index{BasicTutorial\_00@{BasicTutorial\_00}!createViewport\_00@{createViewport\_00}}
+\index{createViewport\_00@{createViewport\_00}!BasicTutorial\_00@{BasicTutorial\_00}}
+\doxysubsubsection{\texorpdfstring{createViewport\_00()}{createViewport\_00()}}
+{\footnotesize\ttfamily void Basic\+Tutorial\+\_\+00\+::create\+Viewport\+\_\+00 (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Create a viewport. 
+
+Create a viewport for the entire screen.
+
+\begin{DoxyReturn}{Returns}
+No return value 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_basic_tutorial__00_a2801a2f0d91d80b471da48344d2ccccf}\label{class_basic_tutorial__00_a2801a2f0d91d80b471da48344d2ccccf}} 
+\index{BasicTutorial\_00@{BasicTutorial\_00}!createViewport\_01@{createViewport\_01}}
+\index{createViewport\_01@{createViewport\_01}!BasicTutorial\_00@{BasicTutorial\_00}}
+\doxysubsubsection{\texorpdfstring{createViewport\_01()}{createViewport\_01()}}
+{\footnotesize\ttfamily void Basic\+Tutorial\+\_\+00\+::create\+Viewport\+\_\+01 (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Create a viewport for 2nd Scene Manager. 
+
+Create the top level viewport for the screen in the corner.
+
+\begin{DoxyReturn}{Returns}
+No return 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_basic_tutorial__00_a94e281a96584a25bf57b1c5e73737c81}\label{class_basic_tutorial__00_a94e281a96584a25bf57b1c5e73737c81}} 
+\index{BasicTutorial\_00@{BasicTutorial\_00}!frameStarted@{frameStarted}}
+\index{frameStarted@{frameStarted}!BasicTutorial\_00@{BasicTutorial\_00}}
+\doxysubsubsection{\texorpdfstring{frameStarted()}{frameStarted()}}
+{\footnotesize\ttfamily bool Basic\+Tutorial\+\_\+00\+::frame\+Started (\begin{DoxyParamCaption}\item[{const Ogre\+::\+Frame\+Event \&}]{evt }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Define the motion of the items before the frame is rendered. 
+
+Small penguin\+: Reset its position to make it move along the circle with large penguin as the center.
+
+The angular speed increase by time. After the small penguin finish one round, the angular speed will be reset and the direction of the small penguin will be opposite.
+
+Large penguin\+: Reset its direction to make it always look at the small penguin.
+
+\begin{DoxyReturn}{Returns}
+Return the flag of frame started 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_basic_tutorial__00_adc1a0b32d78b1980b3ee51a1b1e1e69b}\label{class_basic_tutorial__00_adc1a0b32d78b1980b3ee51a1b1e1e69b}} 
+\index{BasicTutorial\_00@{BasicTutorial\_00}!keyPressed@{keyPressed}}
+\index{keyPressed@{keyPressed}!BasicTutorial\_00@{BasicTutorial\_00}}
+\doxysubsubsection{\texorpdfstring{keyPressed()}{keyPressed()}}
+{\footnotesize\ttfamily bool Basic\+Tutorial\+\_\+00\+::key\+Pressed (\begin{DoxyParamCaption}\item[{const O\+I\+S\+::\+Key\+Event \&}]{arg }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Set the callback function according to the keyboard input. 
+
+Functions description\+:
+
+
+\begin{DoxyEnumerate}
+\item key \textquotesingle{}1\textquotesingle{} $\sim$ \textquotesingle{}5\textquotesingle{}\+: From camera man get the camera, then reset the position and direction of the camera in order to get desired view.
+\item key \textquotesingle{}B\textquotesingle{}\+: According to the viewport-\/position state, set the position of the top viewport to top-\/left, top-\/right, bottem-\/right, bottom-\/left(in order) of the screen.
+\item key \textquotesingle{}M\textquotesingle{}\+: Reset the two viewports, make the viewport of 2nd camera become the bottem level and the viewport of 1st camera become the top level(top-\/left corner). Set the viewport-\/position to top-\/left.
+\item key \textquotesingle{}N\textquotesingle{}\+: Reset the two viewports, make the viewport of 1nd camera become the bottem level and the viewport of 2nd camera become the top level(top-\/right corner). Set the viewport-\/position to top-\/right.
+\item key \textquotesingle{}P\textquotesingle{}\+: Press to start or stop the animation.
+\end{DoxyEnumerate}
+
+\begin{DoxyReturn}{Returns}
+Flag of key pressed, must be true. 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{class_base_application}{Base\+Application}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+D\+:/桌面/3\+D\+G\+P\+\_\+\+Assignment\+\_\+\+Template\+\_\+202009/programs/3\+D\+G\+P\+\_\+202009\+\_\+01\+\_\+\+Multi\+Viewports\+\_\+\+Template/source/Tutorial\+Application.\+h\item 
+D\+:/桌面/3\+D\+G\+P\+\_\+\+Assignment\+\_\+\+Template\+\_\+202009/programs/3\+D\+G\+P\+\_\+202009\+\_\+01\+\_\+\+Multi\+Viewports\+\_\+\+Template/source/Tutorial\+Application.\+cpp\end{DoxyCompactItemize}

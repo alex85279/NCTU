@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Extra">
+      <UniqueIdentifier>{b6c90a24-b52a-4755-8e06-967f67b3c501}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="OpenALFramework">
+      <UniqueIdentifier>{3abb2b19-a90e-47e7-b14f-aab29e600bd8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\attack_defense_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\collision_detection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\game_obj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\main_char.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\monster_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\monsters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\read_data.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\TutorialApplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\weapon_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\weapons.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BaseApplication.cpp">
+      <Filter>Extra</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BasicTools.cpp">
+      <Filter>Extra</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenALFramework\Win32\aldlist.cpp">
+      <Filter>OpenALFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenALFramework\Win32\CWaves.cpp">
+      <Filter>OpenALFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenALFramework\Win32\Framework.cpp">
+      <Filter>OpenALFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenALFramework\Win32\LoadOAL.cpp">
+      <Filter>OpenALFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="source\bar2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\digit_string_dialogue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ogre_utility_3D2D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\game_obj_name_factory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\sound_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\wago_ogre_mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\envTools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\SpecialEffectManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\map_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WeaponParticleSystemManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\attack_defense_system.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\collision_detection.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\game_obj.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\main_char.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\monster_manager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\monsters.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\read_data.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\TutorialApplication.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\weapon_manager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\weapons.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\BaseApplication.h">
+      <Filter>Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="source\BasicTools.h">
+      <Filter>Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sound.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenALFramework\Win32\aldlist.h">
+      <Filter>OpenALFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenALFramework\Win32\CWaves.h">
+      <Filter>OpenALFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenALFramework\Win32\Framework.h">
+      <Filter>OpenALFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenALFramework\Win32\LoadOAL.h">
+      <Filter>OpenALFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="source\bar2D.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\digit_string_dialogue.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ogre_utility_3D2D.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\game_obj_name_factory.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\sound_manager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\wago_ogre_mesh.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\map_manager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\envTools.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\SpecialEffectManager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="source\WeaponParticleSystemManager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

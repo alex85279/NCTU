@@ -1,0 +1,1 @@
+SELECT matchType, COUNT(*) FROM `match` WHERE matchType LIKE '%fpp%' GROUP BY matchType ORDER BY COUNT(*) asc;

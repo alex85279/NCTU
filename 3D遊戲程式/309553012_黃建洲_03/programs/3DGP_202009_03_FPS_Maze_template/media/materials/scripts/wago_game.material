@@ -1,0 +1,424 @@
+material Examples/Rockwall_Wingo
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.1 0.1 0.1
+			diffuse 0.7 0.7 0.7
+
+			texture_unit
+			{
+				texture rockwall.tga
+			}
+		}
+	}
+}
+
+material Examples/Digits
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+
+			texture_unit
+			{
+				texture digits.jpg
+			}
+		}
+	}
+}
+
+material Examples/AvatarItems
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend add
+			depth_write off
+
+			texture_unit
+			{
+				texture avatar_items.jpg
+			}
+		}
+	}
+}
+
+material wago_game/StaminaBar
+{
+receive_shadows false
+	technique
+	{
+		pass
+		{
+
+			ambient 1.0 1.0 1.0
+			diffuse 1.0 1.0 1.0
+			specular 1.0 1.0 1.0
+			texture_unit
+			{
+				texture stamina_bar.jpg
+			}
+		}
+	}
+}
+
+material wago_game/LifeBar
+{
+receive_shadows false
+	technique
+	{
+		pass
+		{
+
+			ambient 1.0 1.0 1.0
+			diffuse 1.0 1.0 1.0
+			specular 1.0 1.0 1.0
+			texture_unit
+			{
+				texture lifebar.jpg
+			}
+		}
+	}
+}
+
+material wago_game/ManaBar
+{
+receive_shadows false
+	technique
+	{
+		pass
+		{
+
+			ambient 1.0 1.0 1.0
+			diffuse 1.0 1.0 1.0
+			specular 1.0 1.0 1.0
+			texture_unit
+			{
+				texture mana_bar.jpg
+			}
+		}
+	}
+}
+material wago_game/item_scroll
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0
+			diffuse 1.0 1.0 1.0
+			specular 1.0 1.0 1.0
+
+
+			texture_unit
+			{
+				texture item_scroll.jpg
+			}
+		}
+	}
+}
+
+material wago_game/menu_editing_item
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0
+			diffuse 1.0 1.0 1.0
+			specular 1.0 1.0 1.0
+
+
+			texture_unit
+			{
+				texture menu_editing.jpg
+			}
+		}
+	}
+}
+
+material wago_game/inventory_bg
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0
+			diffuse 1.0 1.0 1.0
+			specular 1.0 1.0 1.0
+
+
+			texture_unit
+			{
+				texture inventory_bg.png
+			}
+		}
+	}
+}
+
+material wago_game/game_menu_bg
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0
+			diffuse 1.0 1.0 1.0
+			specular 1.0 1.0 1.0
+
+
+			texture_unit
+			{
+				texture game_menu_bg.jpg
+			}
+		}
+	}
+}
+
+material wago_game/game_menu_item
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0
+			diffuse 1.0 1.0 1.0
+			specular 1.0 1.0 1.0
+			scene_blend colour_blend
+//			scene_blend colour_blend
+//			scene_blend one zero
+
+			texture_unit
+			{
+				texture game_menu_item.jpg
+			}
+		}
+	}
+}
+
+material wago_game/weapon_used_bg
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0
+			diffuse 1.0 1.0 1.0
+			specular 1.0 1.0 1.0
+
+
+			texture_unit
+			{
+				texture weapon_used_background.jpg
+			}
+		}
+	}
+}
+material wago_game/item
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0
+			diffuse 1.0 1.0 1.0
+			specular 1.0 1.0 1.0
+//			scene_blend colour_blend
+scene_blend one one_minus_src_colour
+
+			texture_unit
+			{
+				texture wago_game_item.jpg
+			}
+		}
+	}
+}
+
+material wago_game/console_background
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0
+			diffuse 1.0 1.0 1.0
+			specular 1.0 1.0 1.0
+			texture_unit
+			{
+				texture console_background.jpg
+			}
+		}
+	}
+}
+
+material Examples/LifeBar
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0
+			diffuse 1.0 1.0 1.0
+			specular 1.0 1.0 1.0
+			texture_unit
+			{
+				texture lifebar.jpg
+			}
+		}
+	}
+}
+
+material Examples/ManaBar
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0
+			diffuse 1.0 1.0 1.0
+			specular 1.0 1.0 1.0
+			texture_unit
+			{
+				texture mana_bar.jpg
+			}
+		}
+	}
+}
+
+material Examples/StaminaBar
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0
+			diffuse 1.0 1.0 1.0
+			specular 1.0 1.0 1.0
+			texture_unit
+			{
+				texture stamina_bar.jpg
+			}
+		}
+	}
+}
+
+material Examples/ExpBar
+{
+	technique
+	{
+		pass
+		{
+			ambient 1.0 1.0 1.0
+			diffuse 1.0 1.0 1.0
+			specular 1.0 1.0 1.0
+			texture_unit
+			{
+				texture experience_bar.jpg
+			}
+		}
+	}
+}
+
+
+material wago_game/intro
+{
+	technique
+	{
+		pass
+		{
+			depth_write off
+			scene_blend alpha_blend
+
+
+			texture_unit
+			{
+				texture game_intro.jpg
+			}
+
+		}
+	}
+}
+
+material wago_game/victory
+{
+	technique
+	{
+		pass
+		{
+			depth_write off
+			scene_blend alpha_blend
+
+
+			texture_unit
+			{
+				texture home.jpg
+			}
+
+		}
+	}
+}
+
+material wago_game/game_over
+{
+	technique
+	{
+		pass
+		{
+			depth_write off
+			scene_blend alpha_blend
+
+
+			texture_unit
+			{
+				texture game_over_words.jpg
+			}
+
+		}
+	}
+}
+
+material wago_game/game_exit
+{
+	technique
+	{
+		pass
+		{
+			depth_write off
+			scene_blend alpha_blend
+
+
+			texture_unit
+			{
+				texture RustySteel.jpg
+			}
+
+		}
+	}
+}
+
+material wago_game/background
+{
+	technique
+	{
+		pass
+		{
+			depth_write off
+			scene_blend alpha_blend
+
+
+			texture_unit
+			{
+				texture flaretrail.png
+			}
+
+		}
+	}
+}

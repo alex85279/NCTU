@@ -1,0 +1,1 @@
+SELECT (walkDistance+swimDistance+rideDistance) as totalDistance, walkDistance, swimDistance, rideDistance FROM player_statistic WHERE walkDistance>0 AND swimDistance>0 AND rideDistance>0 ORDER BY totalDistance desc Limit 10;

@@ -1,0 +1,2 @@
+﻿  main.cpp
+D:\desktop\hw2_release\GLSL_example\main.cpp(11,10): fatal error C1083: 無法開啟包含檔案: 'GL/glew.h': No such file or directory

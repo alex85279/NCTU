@@ -1,0 +1,2 @@
+SELECT COUNT(*) as numberOfPlayers,MAX(heals) FROM player_statistic WHERE damageDealt = 0 AND winPlacePerc = 1 AND matchId IN (SELECT matchId FROM `match`
+WHERE matchDuration > (SELECT AVG(matchDuration) FROM `match`));

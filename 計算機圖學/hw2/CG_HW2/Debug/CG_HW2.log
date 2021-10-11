@@ -1,0 +1,38 @@
+﻿  main.cpp
+D:\desktop\hw2_release\CG_HW2\include\Model.hpp(29,20): warning C4018: '<': signed/unsigned 不相符
+D:\desktop\hw2_release\CG_HW2\include\Model.hpp(31,51): warning C4838: 從 'GLuint' 到 'int' 的轉換必須是縮小轉換
+D:\desktop\hw2_release\CG_HW2\include\Model.hpp(31,84): warning C4838: 從 'GLuint' 到 'int' 的轉換必須是縮小轉換
+D:\desktop\hw2_release\CG_HW2\include\Model.hpp(31,117): warning C4838: 從 'GLuint' 到 'int' 的轉換必須是縮小轉換
+D:\desktop\hw2_release\CG_HW2\include\Model.hpp(40,51): warning C4838: 從 'GLuint' 到 'int' 的轉換必須是縮小轉換
+D:\desktop\hw2_release\CG_HW2\include\Model.hpp(40,84): warning C4838: 從 'GLuint' 到 'int' 的轉換必須是縮小轉換
+D:\desktop\hw2_release\CG_HW2\include\Model.hpp(40,117): warning C4838: 從 'GLuint' 到 'int' 的轉換必須是縮小轉換
+D:\desktop\hw2_release\CG_HW2\include\Model.hpp(49,51): warning C4838: 從 'GLuint' 到 'int' 的轉換必須是縮小轉換
+D:\desktop\hw2_release\CG_HW2\include\Model.hpp(49,84): warning C4838: 從 'GLuint' 到 'int' 的轉換必須是縮小轉換
+D:\desktop\hw2_release\CG_HW2\include\Model.hpp(49,117): warning C4838: 從 'GLuint' 到 'int' 的轉換必須是縮小轉換
+D:\desktop\hw2_release\CG_HW2\include\Model.hpp(84,20): warning C4018: '<': signed/unsigned 不相符
+D:\desktop\hw2_release\CG_HW2\include\Input.hpp(10,26): warning C4305: '正在初始化': 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\desktop\hw2_release\CG_HW2\include\Input.hpp(46,19): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\desktop\hw2_release\CG_HW2\include\Input.hpp(47,18): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\desktop\hw2_release\CG_HW2\include\Input.hpp(48,18): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\desktop\hw2_release\CG_HW2\include\Input.hpp(51,40): warning C4305: '正在初始化': 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\desktop\hw2_release\CG_HW2\include\Input.hpp(55,25): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\desktop\hw2_release\CG_HW2\include\Input.hpp(56,35): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\desktop\hw2_release\CG_HW2\include\Input.hpp(68,27): warning C4244: '-=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\desktop\hw2_release\CG_HW2\include\Input.hpp(69,28): warning C4244: '-=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\desktop\hw2_release\CG_HW2\include\Input.hpp(71,15): warning C4305: '=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\desktop\hw2_release\CG_HW2\include\Input.hpp(73,16): warning C4305: '=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\desktop\hw2_release\CG_HW2\include\Input.hpp(209,23): warning C4305: '引數': 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\desktop\hw2_release\CG_HW2\include\Input.hpp(503,22): warning C4305: '=': 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\desktop\hw2_release\CG_HW2\include\Input.hpp(505,22): warning C4305: '=': 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\desktop\hw2_release\CG_HW2\include\Input.hpp(512,15): warning C4305: '=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\desktop\hw2_release\CG_HW2\include\Input.hpp(513,14): warning C4305: '=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\desktop\hw2_release\CG_HW2\include\Input.hpp(514,14): warning C4305: '=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\desktop\hw2_release\CG_HW2\main.cpp(169,15): warning C4244: '正在初始化': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\desktop\hw2_release\CG_HW2\main.cpp(468,21): warning C4305: '+=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\desktop\hw2_release\CG_HW2\main.cpp(476,21): warning C4305: '-=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\desktop\hw2_release\CG_HW2\main.cpp(631,22): warning C4305: '=': 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\desktop\hw2_release\CG_HW2\main.cpp(633,22): warning C4305: '=': 從 'double' 轉換為 'GLfloat'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\desktop\hw2_release\CG_HW2\main.cpp(640,15): warning C4305: '=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\desktop\hw2_release\CG_HW2\main.cpp(641,14): warning C4305: '=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\desktop\hw2_release\CG_HW2\main.cpp(642,14): warning C4305: '=': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+  CG_HW2.vcxproj -> D:\desktop\hw2_release\Debug\CG_HW2.exe

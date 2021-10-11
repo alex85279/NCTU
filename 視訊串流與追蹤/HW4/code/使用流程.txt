@@ -1,0 +1,11 @@
+使用方法:
+
+1. 打開cmd，到code的資料夾輸入"serve ."，打開虛擬伺服器
+2. 打開另一個cmd，到C:\Program Files\Oracle\VirtualBox
+3. 打開VM
+4. 接著照順序輸入"VBoxManage list webcams" ， "VBoxManage list vms" ， "VBoxManage controlvm "video2" webcam attach .1
+5. 在vm裡面的cmd輸入sudo mount -t vboxsf VM /home/alex/windows，掛接共用資料夾
+6. 到/home/windows/code/，輸入python3 assignment4.py
+7. 跑完打開瀏覽器，到http://localhost:5000觀看結果。
+
+

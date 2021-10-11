@@ -1,0 +1,9 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: 中繼目錄 (Debug\) 包含從其他專案 (CG_HW1.vcxproj) 共用的檔案。這可能導致錯誤的清除和重建行為。
+  main.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': 巨集重複定義
+D:\desktop\hw1_release\CG_HW1_EXAMPLE\include\GLFW\glfw3.h(123): message : 請參閱 'APIENTRY' 之前的定義
+  stb_image.cpp
+  正在產生程式碼...
+  LINK : 最後的累加連結找不到或未建置 D:\desktop\hw1_release\Debug\CG_HW1_EXAMPLE.exe，正在執行完整連結
+LINK : warning LNK4098: 預設的程式庫 'MSVCRT' 與其他使用的程式庫衝突，請使用 /NODEFAULTLIB:library
+  CG_HW1_EXAMPLE.vcxproj -> D:\desktop\hw1_release\Debug\CG_HW1_EXAMPLE.exe

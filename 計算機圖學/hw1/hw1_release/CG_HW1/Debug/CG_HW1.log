@@ -1,0 +1,24 @@
+﻿  main.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': 巨集重複定義
+D:\desktop\hw1_release\CG_HW1\include\GLFW\glfw3.h(123): message : 請參閱 'APIENTRY' 之前的定義
+D:\desktop\hw1_release\CG_HW1\main.cpp(60,26): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\desktop\hw1_release\CG_HW1\main.cpp(62,22): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+D:\desktop\hw1_release\CG_HW1\main.cpp(82,33): warning C4244: '引數': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\desktop\hw1_release\CG_HW1\main.cpp(83,34): warning C4244: '引數': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\desktop\hw1_release\CG_HW1\main.cpp(84,34): warning C4244: '引數': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\desktop\hw1_release\CG_HW1\main.cpp(85,35): warning C4244: '引數': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\desktop\hw1_release\CG_HW1\main.cpp(97,45): warning C4244: '引數': 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+D:\desktop\hw1_release\CG_HW1\main.cpp(97,29): warning C4244: '引數': 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+D:\desktop\hw1_release\CG_HW1\main.cpp(102,45): warning C4244: '引數': 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+D:\desktop\hw1_release\CG_HW1\main.cpp(102,29): warning C4244: '引數': 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+D:\desktop\hw1_release\CG_HW1\main.cpp(107,45): warning C4244: '引數': 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+D:\desktop\hw1_release\CG_HW1\main.cpp(107,29): warning C4244: '引數': 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+D:\desktop\hw1_release\CG_HW1\main.cpp(112,45): warning C4244: '引數': 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+D:\desktop\hw1_release\CG_HW1\main.cpp(112,29): warning C4244: '引數': 將 'double' 轉換為 'GLfloat'，由於類型不同，可能導致資料遺失
+D:\desktop\hw1_release\CG_HW1\main.cpp(139,23): warning C4101: 'v2': 未參考的區域變數
+D:\desktop\hw1_release\CG_HW1\main.cpp(139,19): warning C4101: 'v1': 未參考的區域變數
+D:\desktop\hw1_release\CG_HW1\main.cpp(436,51): warning C4244: '+=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\desktop\hw1_release\CG_HW1\main.cpp(437,51): warning C4244: '-=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\desktop\hw1_release\CG_HW1\main.cpp(487,23): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+D:\desktop\hw1_release\CG_HW1\main.cpp(625,30): warning C4244: '-=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  CG_HW1.vcxproj -> D:\desktop\hw1_release\Debug\CG_HW1.exe

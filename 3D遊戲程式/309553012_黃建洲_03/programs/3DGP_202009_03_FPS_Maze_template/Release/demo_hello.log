@@ -1,0 +1,55 @@
+﻿已經開始建置於 2020/12/13 下午 08:11:25。
+     1>節點 2 (build 目標) 上的專案 "D:\桌面\3DGP_HW03_Template\programs\3DGP_202009_03_FPS_Maze_template\demo_hello.vcxproj"。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(298,5): warning MSB8004: Intermediate 目錄結尾不是結尾斜線。這個建置執行個體將會加入此斜線，因為這樣才能正確評估 Intermediate 目錄。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output 目錄結尾不是結尾斜線。這個建置執行個體將會加入此斜線，因為這樣才能正確評估 Output 目錄。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "Release\demo_hello.unsuccessfulbuild"。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\include /I.\OpenALFramework\Win32 /I..\..\include\OGRE /I..\..\include\OIS /I..\..\boost_1_42 /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt source\BaseApplication.cpp source\read_data.cpp
+         BaseApplication.cpp
+         read_data.cpp
+     1>source\read_data.cpp(33): warning C4305: '正在初始化' : 從 'double' 轉換為 'float'，是由較大的型別轉換為較小的型別，可能導致資料遺失
+     1>source\read_data.cpp(71): warning C4244: '=' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>source\read_data.cpp(76): warning C4244: '=' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\Release\/demo_hello.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:.\libs\Win32\OpenAL32.lib /LIBPATH:..\..\lib\Release /LIBPATH:..\..\lib\opt\ /LIBPATH:..\..\boost_1_42\lib .\libs\Win32\OpenAL32.lib ..\..\lib\release\OgreMain.lib "..\..\boost_1_42\lib\libboost_thread-vc100-mt-1_42.lib" "..\..\boost_1_42\lib\libboost_date_time-vc100-mt-1_42.lib" ..\..\lib\release\OgreRTShaderSystem.lib ..\..\lib\release\OIS.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\demo_hello.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\桌面\3DGP_HW03_Template\programs\3DGP_202009_03_FPS_Maze_template\bin\Release\demo_hello.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"bin\Release\demo_hello.lib" /MACHINE:X86 Release\aldlist.obj
+         Release\CWaves.obj
+         Release\Framework.obj
+         Release\LoadOAL.obj
+         Release\attack_defense_system.obj
+         Release\bar2D.obj
+         Release\BaseApplication.obj
+         Release\BasicTools.obj
+         Release\collision_detection.obj
+         Release\digit_string_dialogue.obj
+         Release\envTools.obj
+         Release\game_obj.obj
+         Release\game_obj_name_factory.obj
+         Release\main_char.obj
+         Release\map_manager.obj
+         Release\monsters.obj
+         Release\monster_manager.obj
+         Release\ogre_utility_3D2D.obj
+         Release\read_data.obj
+         Release\sound.obj
+         Release\sound_manager.obj
+         Release\SpecialEffectManager.obj
+         Release\TutorialApplication.obj
+         Release\wago_ogre_mesh.obj
+         Release\WeaponParticleSystemManager.obj
+         Release\weapons.obj
+         Release\weapon_manager.obj
+         正在產生程式碼
+     1>d:\桌面\3dgp_hw03_template\programs\3dgp_202009_03_fps_maze_template\source\map_manager.cpp(193): warning C4715: 'MAP_MANAGER::movePosition' : 不是所有控制路徑都傳回值
+         已完成程式碼產生
+         demo_hello.vcxproj -> D:\桌面\3DGP_HW03_Template\programs\3DGP_202009_03_FPS_Maze_template\bin\Release\demo_hello.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"bin\Release\/demo_hello.exe;#1" /manifest Release\demo_hello.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在刪除檔案 "Release\demo_hello.unsuccessfulbuild"。
+         正在變更時間戳記 "Release\demo_hello.lastbuildstate"。
+     1>專案 "D:\桌面\3DGP_HW03_Template\programs\3DGP_202009_03_FPS_Maze_template\demo_hello.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:26.09

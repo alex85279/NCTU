@@ -1,0 +1,95 @@
+﻿Build started 4/2/2015 10:11:25 AM.
+     1>Project "D:\users\wingo\teaching\3D_Programming\source_code\3DGame_Ogre_vc_9_v1-7-1_NET2010_Assignments\programs\3DGP_03_201502_Crowd\demo_hello.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\demo_hello.lastbuildstate".
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(298,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+       InitializeBuildStatus:
+         Creating "Debug\demo_hello.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include\OGRE /I..\..\include\OIS /I..\..\boost_1_42 /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt source\attack_defense_system.cpp source\BaseApplication.cpp source\BasicTools.cpp source\collision_detection.cpp source\game_obj.cpp source\main_char.cpp source\monsters.cpp source\monster_manager.cpp source\particle_manager.cpp source\read_data.cpp source\TutorialApplication.cpp source\weapons.cpp source\weapon_manager.cpp
+         weapon_manager.cpp
+     1>d:\users\wingo\teaching\3d_programming\source_code\3dgame_ogre_vc_9_v1-7-1_net2010_assignments\programs\3dgp_03_201502_crowd\source\weapon_manager.cpp(6): warning C4305: '=' : truncation from 'double' to 'Ogre::Real'
+     1>d:\users\wingo\teaching\3d_programming\source_code\3dgame_ogre_vc_9_v1-7-1_net2010_assignments\programs\3dgp_03_201502_crowd\source\weapon_manager.cpp(14): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+     1>d:\users\wingo\teaching\3d_programming\source_code\3dgame_ogre_vc_9_v1-7-1_net2010_assignments\programs\3dgp_03_201502_crowd\source\weapon_manager.cpp(14): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+     1>d:\users\wingo\teaching\3d_programming\source_code\3dgame_ogre_vc_9_v1-7-1_net2010_assignments\programs\3dgp_03_201502_crowd\source\weapon_manager.cpp(14): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+         weapons.cpp
+     1>d:\users\wingo\teaching\3d_programming\source_code\3dgame_ogre_vc_9_v1-7-1_net2010_assignments\programs\3dgp_03_201502_crowd\source\weapons.cpp(21): warning C4305: 'argument' : truncation from 'double' to 'const Ogre::Real'
+         TutorialApplication.cpp
+     1>d:\users\wingo\teaching\3d_programming\source_code\3dgame_ogre_vc_9_v1-7-1_net2010_assignments\programs\3dgp_03_201502_crowd\source\tutorialapplication.cpp(167): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\users\wingo\teaching\3d_programming\source_code\3dgame_ogre_vc_9_v1-7-1_net2010_assignments\programs\3dgp_03_201502_crowd\source\tutorialapplication.cpp(167): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\users\wingo\teaching\3d_programming\source_code\3dgame_ogre_vc_9_v1-7-1_net2010_assignments\programs\3dgp_03_201502_crowd\source\tutorialapplication.cpp(167): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\users\wingo\teaching\3d_programming\source_code\3dgame_ogre_vc_9_v1-7-1_net2010_assignments\programs\3dgp_03_201502_crowd\source\tutorialapplication.cpp(197): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\users\wingo\teaching\3d_programming\source_code\3dgame_ogre_vc_9_v1-7-1_net2010_assignments\programs\3dgp_03_201502_crowd\source\tutorialapplication.cpp(197): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\users\wingo\teaching\3d_programming\source_code\3dgame_ogre_vc_9_v1-7-1_net2010_assignments\programs\3dgp_03_201502_crowd\source\tutorialapplication.cpp(197): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\users\wingo\teaching\3d_programming\source_code\3dgame_ogre_vc_9_v1-7-1_net2010_assignments\programs\3dgp_03_201502_crowd\source\tutorialapplication.cpp(210): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+     1>d:\users\wingo\teaching\3d_programming\source_code\3dgame_ogre_vc_9_v1-7-1_net2010_assignments\programs\3dgp_03_201502_crowd\source\tutorialapplication.cpp(210): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+     1>d:\users\wingo\teaching\3d_programming\source_code\3dgame_ogre_vc_9_v1-7-1_net2010_assignments\programs\3dgp_03_201502_crowd\source\tutorialapplication.cpp(210): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+         read_data.cpp
+     1>d:\users\wingo\teaching\3d_programming\source_code\3dgame_ogre_vc_9_v1-7-1_net2010_assignments\programs\3dgp_03_201502_crowd\source\read_data.cpp(16): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>d:\users\wingo\teaching\3d_programming\source_code\3dgame_ogre_vc_9_v1-7-1_net2010_assignments\programs\3dgp_03_201502_crowd\source\read_data.cpp(42): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\users\wingo\teaching\3d_programming\source_code\3dgame_ogre_vc_9_v1-7-1_net2010_assignments\programs\3dgp_03_201502_crowd\source\read_data.cpp(47): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         particle_manager.cpp
+         monster_manager.cpp
+     1>d:\users\wingo\teaching\3d_programming\source_code\3dgame_ogre_vc_9_v1-7-1_net2010_assignments\programs\3dgp_03_201502_crowd\source\monster_manager.cpp(18): warning C4244: 'initializing' : conversion from 'double' to 'Ogre::Real', possible loss of data
+     1>d:\users\wingo\teaching\3d_programming\source_code\3dgame_ogre_vc_9_v1-7-1_net2010_assignments\programs\3dgp_03_201502_crowd\source\monster_manager.cpp(19): warning C4244: 'initializing' : conversion from 'double' to 'Ogre::Real', possible loss of data
+     1>d:\users\wingo\teaching\3d_programming\source_code\3dgame_ogre_vc_9_v1-7-1_net2010_assignments\programs\3dgp_03_201502_crowd\source\monster_manager.cpp(27): warning C4244: '=' : conversion from 'double' to 'Ogre::Real', possible loss of data
+     1>d:\users\wingo\teaching\3d_programming\source_code\3dgame_ogre_vc_9_v1-7-1_net2010_assignments\programs\3dgp_03_201502_crowd\source\monster_manager.cpp(77): warning C4244: '=' : conversion from 'double' to 'Ogre::Real', possible loss of data
+     1>d:\users\wingo\teaching\3d_programming\source_code\3dgame_ogre_vc_9_v1-7-1_net2010_assignments\programs\3dgp_03_201502_crowd\source\monster_manager.cpp(99): warning C4244: '=' : conversion from 'double' to 'Ogre::Real', possible loss of data
+         monsters.cpp
+     1>d:\users\wingo\teaching\3d_programming\source_code\3dgame_ogre_vc_9_v1-7-1_net2010_assignments\programs\3dgp_03_201502_crowd\source\monsters.cpp(17): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+     1>d:\users\wingo\teaching\3d_programming\source_code\3dgame_ogre_vc_9_v1-7-1_net2010_assignments\programs\3dgp_03_201502_crowd\source\monsters.cpp(35): warning C4305: '-=' : truncation from 'double' to 'Ogre::Real'
+         main_char.cpp
+     1>d:\users\wingo\teaching\3d_programming\source_code\3dgame_ogre_vc_9_v1-7-1_net2010_assignments\programs\3dgp_03_201502_crowd\source\main_char.cpp(42): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+     1>d:\users\wingo\teaching\3d_programming\source_code\3dgame_ogre_vc_9_v1-7-1_net2010_assignments\programs\3dgp_03_201502_crowd\source\main_char.cpp(62): warning C4305: 'argument' : truncation from 'double' to 'Ogre::Real'
+         game_obj.cpp
+         collision_detection.cpp
+         BasicTools.cpp
+         BaseApplication.cpp
+         attack_defense_system.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\demo_hello.exe.embed.manifest.res" Debug\demo_hello_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\Debug\/demo_hello.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\lib\Release /LIBPATH:..\..\lib\opt\ /LIBPATH:..\..\boost_1_42\lib ..\..\lib\debug\OgreMain_d.lib "..\..\boost_1_42\lib\libboost_thread-vc100-mt-1_42.lib" "..\..\boost_1_42\lib\libboost_date_time-vc100-mt-1_42.lib" ..\..\lib\debug\OgreRTShaderSystem_d.lib ..\..\lib\debug\OIS_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\demo_hello.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\users\wingo\teaching\3D_Programming\source_code\3DGame_Ogre_vc_9_v1-7-1_NET2010_Assignments\programs\3DGP_03_201502_Crowd\bin\Debug\demo_hello.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"bin\Debug\demo_hello.lib" /MACHINE:X86 Debug\demo_hello.exe.embed.manifest.res
+         Debug\attack_defense_system.obj
+         Debug\BaseApplication.obj
+         Debug\BasicTools.obj
+         Debug\collision_detection.obj
+         Debug\game_obj.obj
+         Debug\main_char.obj
+         Debug\monsters.obj
+         Debug\monster_manager.obj
+         Debug\particle_manager.obj
+         Debug\read_data.obj
+         Debug\TutorialApplication.obj
+         Debug\weapons.obj
+         Debug\weapon_manager.obj
+       Manifest:
+         Deleting file "Debug\demo_hello.exe.embed.manifest".
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\demo_hello.exe.embed.manifest" /manifest Debug\demo_hello.exe.intermediate.manifest
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\demo_hello.exe.embed.manifest.res" Debug\demo_hello_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\Debug\/demo_hello.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\lib\Release /LIBPATH:..\..\lib\opt\ /LIBPATH:..\..\boost_1_42\lib ..\..\lib\debug\OgreMain_d.lib "..\..\boost_1_42\lib\libboost_thread-vc100-mt-1_42.lib" "..\..\boost_1_42\lib\libboost_date_time-vc100-mt-1_42.lib" ..\..\lib\debug\OgreRTShaderSystem_d.lib ..\..\lib\debug\OIS_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\demo_hello.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\users\wingo\teaching\3D_Programming\source_code\3DGame_Ogre_vc_9_v1-7-1_NET2010_Assignments\programs\3DGP_03_201502_Crowd\bin\Debug\demo_hello.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"bin\Debug\demo_hello.lib" /MACHINE:X86 Debug\demo_hello.exe.embed.manifest.res
+         Debug\attack_defense_system.obj
+         Debug\BaseApplication.obj
+         Debug\BasicTools.obj
+         Debug\collision_detection.obj
+         Debug\game_obj.obj
+         Debug\main_char.obj
+         Debug\monsters.obj
+         Debug\monster_manager.obj
+         Debug\particle_manager.obj
+         Debug\read_data.obj
+         Debug\TutorialApplication.obj
+         Debug\weapons.obj
+         Debug\weapon_manager.obj
+         demo_hello.vcxproj -> D:\users\wingo\teaching\3D_Programming\source_code\3DGame_Ogre_vc_9_v1-7-1_NET2010_Assignments\programs\3DGP_03_201502_Crowd\bin\Debug\demo_hello.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\demo_hello.unsuccessfulbuild".
+         Touching "Debug\demo_hello.lastbuildstate".
+     1>Done Building Project "D:\users\wingo\teaching\3D_Programming\source_code\3DGame_Ogre_vc_9_v1-7-1_NET2010_Assignments\programs\3DGP_03_201502_Crowd\demo_hello.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:40.42

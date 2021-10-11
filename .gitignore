@@ -1,0 +1,4 @@
+*.ipch
+*.conv.74
+*.weights
+events.*

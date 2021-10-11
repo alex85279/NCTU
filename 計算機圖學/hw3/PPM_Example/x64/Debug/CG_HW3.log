@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\_交大課程_\1091\Computer_Graphic_TA\Visual Studio\2020_CG_Assignments\hw3_release\CG_HW3\main.cpp(21,17): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+  CG_HW3.vcxproj -> D:\_交大課程_\1091\Computer_Graphic_TA\Visual Studio\2020_CG_Assignments\hw3_release\x64\Debug\CG_HW3.exe
